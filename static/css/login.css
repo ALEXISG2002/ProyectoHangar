@@ -1,1 +1,58 @@
-#css 
+:root{
+    --logo-sena: #39A900;
+    --azul-dark: #00324D;
+    --azul-claro: #82DED0;
+    --amarrillo: #FFCE40;
+   
+    --crema: #FBFBE2;
+    --verde-palido: #385C57;
+    --salmon: #CB7766;
+   }
+   
+   
+   .style {
+       color: var(--azul-claro);
+       color: var(--verde-palido)
+   }
+   
+   input {
+       color: var(--logo-sena);
+    }
+   
+   /*+-+-+-+-+-+COLORES REGLAMENTARIOS-+-+-+-+-+*/
+
+*{
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'segoe UI', Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+section#cuerpo_login {
+    background-color: #385C57;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+#login_vali {
+    background-color: #00324D;
+    border-radius: 11px;
+    height: 260px;
+    margin: 0;
+    padding: 17px;
+    width: clamp(300px, 92%,420px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
