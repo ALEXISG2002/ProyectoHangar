@@ -1,3 +1,5 @@
+
+   /*+-+-+-+-+-+COLORES REGLAMENTARIOS-+-+-+-+-+*/
 :root{
     --logo-sena: #39A900;
     --azul-dark: #00324D;
@@ -36,7 +38,7 @@ body {
     font-size: 13px;
 }
 
-section#cuerpo_login {
+main#cuerpo_login {
     background-color: #385C57;
     height: 100vh;
     width: 100vw;
@@ -56,3 +58,46 @@ section#cuerpo_login {
     justify-content: space-between;
     align-items: flex-start;
 }
+
+    #login_vali button {
+        background-color: #82DED0;
+        border: solid 1px #385C57;
+        border-radius: 3px;
+        color: #CB7766;
+        font-weight: bold;
+        margin: 0;
+        padding: 13px 21px;
+        align-self: flex-end;
+    }
+
+        #login_vali button:hover {
+            background-color: #00324D;
+            color: #FFCE40;
+            transform: scale(1.1);
+        }
+
+    #login_vali input {
+        background-color: #00324D;
+        border: none;
+        border-left: solid 2px #FFCE40;
+        color: #39A900;
+        margin: 0%;
+        padding: 13px 24px;
+        width: 100%;
+    }
+
+        #login_vali input:focus {
+            transform: scale(1.1);
+        }
+
+        #login_vali label {
+            color: #39A900;
+            display: block;
+            font-size: 0.95em;
+            margin-bottom: 5px;
+        }
+
+        #login_vali .cont-campos {
+            width: 100%;
+        }
+    

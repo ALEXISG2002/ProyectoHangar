@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN ||A-1</title>
 
-    <link rel="stylesheet" href="static/css/login.css">
+    <link rel="stylesheet" href="../static/css/login.css">
     
     <script src=""></script>
 </head>
@@ -15,11 +15,11 @@
 
         <form name="login_vali" id="login_vali" action="" method="post" onsubmit="telon()" enctype="multipart/form-data">
             
-            <div>
+            <div class="cont-campos">
             <input type="text" name="num_usuario" id="num_usuario" class="campo-blanco" pattern="[A-Z0-9]{6,15}" max="15" minlength="6" inputmode="numeric" tabindex="1" required autofocus>
             </div>
 
-            <div>
+            <div class="cont-campos">
             <input type="password" name="contra" id="contra" pattern="[0-9]{10}" max="10" minlength="10" inputmode="tel" tabindex="2" required>
             </div>
 
